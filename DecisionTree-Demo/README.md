@@ -10,7 +10,7 @@ This project provides an interactive way to explore Decision Trees with predefin
 
 ## How to Run
 1. Clone the repository:
-git clone https://github.com/your-username/DecisionTree-Demo.git
+git clone https://github.com/Essilham/DecisionTree-Demo.git
 2. Install dependencies:
 pip install -r requirements.txt
 3. Run the app:

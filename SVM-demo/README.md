@@ -16,5 +16,8 @@ pip install -r requirements.txt
 3. run the app:
 streamlit run svm_demo.py
 
+For a quick run: https://ai-algorithms-toolkit-svm.streamlit.app
+
+
 
 <img width="1309" alt="Screen Shot 2024-11-27 at 8 51 26 PM" src="https://github.com/user-attachments/assets/26aabf7c-c01b-484c-9971-acec56fc7666">

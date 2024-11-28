@@ -16,5 +16,7 @@ pip install -r requirements.txt
 3. Run the app:
 streamlit run app.py
 
+For a quick run: https://ai-algorithms-toolkit-decisiontree.streamlit.app
 
 
+<img width="1152" alt="Screen Shot 2024-11-27 at 9 22 56 PM" src="https://github.com/user-attachments/assets/77ec6465-283c-4c4f-bda6-bbf27ad72b95">

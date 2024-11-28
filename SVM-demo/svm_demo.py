@@ -12,7 +12,7 @@ st.write("Explore how Support Vector Machines (SVMs) classify data with differen
 # Sidebar Controls
 kernel = st.sidebar.selectbox("Select Kernel", ["linear", "rbf", "poly"])
 regularization = st.sidebar.slider("Regularization Parameter (C)", 0.1, 10.0, step=0.1, value=1.0)
-dataset_type = st.sidebar.selectbox("Select Dataset", ["Linearly Separable", "Non-Linearly Separable (Moons)", "Non-Linearly Separable (Circles)"])
+dataset_type = st.sidebar.selectbox("Select Dataset", ["Linearly Separable", "Moons (Non-Linear)", "Circles (Non-Linear)"])
 noise = st.sidebar.slider("Dataset Noise", 0.0, 1.0, step=0.1, value=0.1)
 random_state = st.sidebar.slider("Random State", 0, 100, step=1, value=42)
 
@@ -22,7 +22,7 @@ if dataset_type == "Linearly Separable":
         n_samples=200, n_features=2, n_informative=2, n_redundant=0, 
         n_clusters_per_class=1, class_sep=2, random_state=random_state
     )
-elif dataset_type == "Non-Linearly Separable (Moons)":
+elif dataset_type == "Moons (Non-Linear)":
     X, y = make_moons(n_samples=200, noise=noise, random_state=random_state)
 else:
     X, y = make_circles(n_samples=200, noise=noise, factor=0.5, random_state=random_state)
@@ -64,4 +64,5 @@ ax.legend()
 
 # Display the plot
 st.pyplot(fig)
+
 

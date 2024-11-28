@@ -14,6 +14,8 @@ pip install -r requirements.txt
 3. Run the app:
 streamlit run knn_demo.py
 
+Quick demo: https://ai-algorithms-toolkit-knn.streamlit.app
+
 
 <img width="1339" alt="Screen Shot 2024-11-27 at 8 19 04 PM" src="https://github.com/user-attachments/assets/efec41d8-83e6-4426-a460-897ba2d8ae34">
 

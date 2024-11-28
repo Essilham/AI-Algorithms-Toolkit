@@ -10,7 +10,7 @@ This project provides an interactive way to explore Support Vector Machines (SVM
 
 ## Getting Started
 1. Clone the repository:
-git clone https://github.com/Essilham/SVM-Visualization.git
+git clone https://github.com/Essilham/SVM-demo.git
 2. Install dependencies:
 pip install -r requirements.txt
 3. run the app:

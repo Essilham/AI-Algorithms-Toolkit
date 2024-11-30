@@ -17,4 +17,7 @@ pip install -r requirements.txt
 4. Run the Streamlit app:
 streamlit run app.py
 
+For a quick run: https://ai-algorithms-toolkit-lossfunc1.streamlit.app
 
+
+<img width="1139" alt="Screen Shot 2024-11-30 at 1 55 29 PM" src="https://github.com/user-attachments/assets/dbb91349-4a55-44a6-b648-a2b2e2104039">

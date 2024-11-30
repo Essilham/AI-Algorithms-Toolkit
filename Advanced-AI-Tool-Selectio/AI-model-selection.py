@@ -1,5 +1,25 @@
 import streamlit as st
 
+
+st.set_page_config(
+    page_title="AI Model Selection Tool",
+    page_icon=":rocket:",
+    layout="centered",
+    initial_sidebar_state="expanded",
+    meta_tags={
+        "description": "An interactive tool to select the best AI models, loss functions, and optimizers tailored to your task.",
+        "og:title": "AI Model Selection Tool",
+        "og:type": "website",
+        "og:url": "https://ai-algorithms-toolkit-advances-ai-models.streamlit.app",
+        "og:image": "https://path_to_your_thumbnail_image.png",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Model Selection Tool",
+        "twitter:description": "An interactive Streamlit app to explore AI models, loss functions, and optimizers.",
+        "twitter:image": "https://path_to_your_thumbnail_image.png",
+    }
+)
+
+
 # Title
 st.title("Advanced AI Model Selection Tool")
 st.write("""

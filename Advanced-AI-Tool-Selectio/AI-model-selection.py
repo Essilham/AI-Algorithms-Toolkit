@@ -130,3 +130,12 @@ st.write("""
 - **Pretrained Models**: Use Hugging Face Transformers for text or torchvision models for images.
 - **Model Deployment**: Use TensorFlow Serving, ONNX, or FastAPI for production deployment.
 """)
+
+# Summary Section
+st.write("""
+### Additional Resources
+- [Papers with Code](https://paperswithcode.com/): Track the latest research and benchmarks.
+- [Hugging Face](https://huggingface.co/): Pre-trained models for NLP and CV tasks.
+- [TensorFlow Hub](https://tfhub.dev/): Access pre-trained TensorFlow models.
+""")
+
